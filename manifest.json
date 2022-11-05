@@ -1,0 +1,17 @@
+{
+    "name": "Quora filler",
+    "action": {},
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Quora auto answer filler",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "icons": {
+        "64": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
